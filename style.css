@@ -1,0 +1,25 @@
+body {
+    width: 700px;
+    height: 800px;
+    padding: 200px 460px 50px 200px;
+}
+.control {
+    background-color: beige;
+    display: flex;
+    width: 700px;
+    height: 50px;
+    cursor: pointer;
+    border: 1px solid black;
+    
+}
+.control>div{
+    width: 100px;
+    height: 50px;
+}
+#ctx-clear{
+    text-align: center;
+    font-size: 20px;
+    border: 2px solid red;
+    color: black;
+}
+
